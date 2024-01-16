@@ -102,7 +102,7 @@ root = Tk()
 root.resizable(False,False)
 root.title("Druid Form Tracker V 1.0.1")
 canvas = Canvas(root)
-canvas.config(height=900, width=1600, bg='#000000')
+canvas.config(height=825, width=1400, bg='#000000')
 canvas.pack()
 
 # Asset Init
@@ -144,9 +144,9 @@ weekly_reset_button = Button(text='Weekly Reset',height=2,width=50,command=weekl
 daily_reset_button = Button(text='Daily Reset',height=2,width=50,command=daily_func)
 
 # Window Build
-logo_place.place(x=750,y=25)
+logo_place.place(x=575,y=25)
 title = Label(text="Druid Form Tracker V1.0.1", font=('arial',25,'bold'),bg='#000000',fg='#ffffff')
-title.place(x=600,y=125)
+title.place(x=450,y=125)
 aurostor_place.place(x=100,y=200)
 fyrakk_place.place(x=100,y=300)
 moragh_place.place(x=100,y=400)
@@ -163,8 +163,8 @@ cain_button.place(x=925,y=235)
 ristar_button.place(x=925,y=335)
 keevah_button.place(x=925,y=435)
 ashwhisper_button.place(x=925,y=535)
-daily_reset_button.place(x=675,y=700)
-weekly_reset_button.place(x=675,y=775)
+daily_reset_button.place(x=450,y=700)
+weekly_reset_button.place(x=450,y=775)
 
 # Main Loop
 while True:
